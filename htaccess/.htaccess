@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^mindupideias\.com\.br$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.mindupideias\.com\.br$
+RewriteRule ^/?$ "http\:\/\/mindupideias\.com\.br\/mindUp\/view\/index\.php" [R=301,L]
+

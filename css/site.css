@@ -1,0 +1,1965 @@
+﻿    #div_lembrete_pagamento{
+
+        background-color:#006600;
+        color:white;
+        margin:70px;
+        padding: 10px;
+        border-radius:10px;
+    }
+
+    #lembrete_pagamento{
+
+        color: red;
+        font-size: 17px;
+    }
+
+    .foto_perfil_usuario{
+
+        width:60px;
+        height:60px;
+        border-radius:10px;
+    }    
+
+
+    .sem_resposta{
+
+        background-color:#B24700;
+        padding:10px; 
+        margin:15px;
+        color:#FFF;
+        border-radius:10px; 
+        font-size:18px; 
+        overflow:auto; 
+        text-align: justify;
+    }
+    
+    .pergunta_negociacao{
+
+        background-color:#333300;
+        padding:10px; 
+        margin:15px;
+        color:#FFF;
+        border-radius:10px; 
+        font-size:18px; 
+        overflow:auto; 
+        text-align: justify;
+    }
+
+    .resposta_negociacao{
+
+        background-color:#001A00;
+        padding:10px; 
+        margin:15px;
+        color:#FFF;
+        border-radius:10px;  
+        font-size:18px;
+        overflow:auto; 
+        text-align: justify;
+    }
+
+     .botao_grande{
+        
+        width:300px;
+        height:300px;
+    }
+
+    .area_texto_negociacao_ideias{
+        width: 50%;
+        height: 200px;
+        padding: 10px;
+        resize: none;
+        text-align: left;
+        border-radius:10px;
+    }
+
+    .negociacao_ideias{
+        font-weight: bold;
+        color:#000;
+    }
+
+    #tabela_mostra_perfil , #tabela_mostra_perfil td{
+        color:#FFF;
+        padding:10px; 
+        width:60%;
+    }
+
+    #quadro_ideias{
+        margin:50px;
+        padding-top:10px;
+        background-color:#1F1F14;
+        padding-bottom:10px;
+        position:relative;
+        border-radius:6px;
+        margin-bottom: 15px;
+        color:#FFF;
+    }
+
+    #quadro_ideias_dos_amigos{
+        margin:50px;
+        padding-top:10px;
+        background-color:#1F1F14;
+        padding-bottom:10px;
+        position:relative;
+        border-radius:6px;
+        color:#FFF;
+    }
+
+    #link_que_mostra_usuarios_cadastrados{
+
+        color:#104D31;
+
+    }
+
+    #frase_bem_do_painel{
+
+        color:#FFF;
+    }
+    
+    .fotos_ideias_tamanho_bom{
+
+        width:500px;
+        height:400px;
+        border-radius: 10px;
+        border-style: solid;
+        border-color:#195E31; 
+        margin:10px;   
+   }
+
+   #ancora_inserir_imagens{
+
+        color:#fff;
+        border-radius: 10px;
+        padding:10px;    
+        background-color:#00A859; 
+        margin-left:-710px; 
+    }
+
+    #ancora_voltar_preencher_ideia {
+
+        color:#fff;
+        border-radius: 10px;
+        padding:10px;    
+        background-color:#00A859;
+        margin-bottom: 50px;
+    }
+    
+    .efeito_verde_insercao_ideias{
+        color:#000; 
+        padding:10px;
+        font-size: 15px;
+        border-radius: 10px;
+    }
+ 
+
+    #icone_localizacao_home{
+        width:25px;
+        height:25px;
+        margin-right:880px;
+        margin-top:3px;
+    }
+
+    #imagem_tutorial{
+
+        height:150px;
+        width:430px;
+    }
+
+    #imagem , #imagem2,#imagem3,#imagem4{
+
+        height:30px;
+    }
+
+    #explica_insercao_fotos_ideia{
+        width:400px; 
+        font-size:8px;
+        float: right;
+        margin-right:10px;
+        background-color:#93AFAF;
+        border-radius: 10px;
+        padding:15px; 
+        color:#FFF;
+    }
+
+    #previsualizar , .carregando{
+        width: 150px;    /* largura da imagem */
+        height: 150px;   /*  altura da imagem  */
+        margin-top: 10px; /* margem do topo */
+        margin-bottom: 10px; /* margem do topo */
+        border-radius:10px;
+        border: 5px solid #dbdbdb;
+    }
+
+    .recebeImagens{
+        background-color:#CBD7D7;
+        border-radius: 10px;
+        padding:20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+        font-size:15px; 
+    }
+
+    .divArrumada{
+        background-color: #CBD7D7;
+        border-radius: 10px;
+        color:#FFF;
+        margin:10px;
+        padding:20px;
+        margin-top:20px;
+        text-align: center;
+        margin-bottom:80px;
+    }
+
+    #visualizar,#visualizar2,#visualizar3,#visualizar4{
+
+        display: inline;
+        margin-left: 10px; 
+    }
+
+    .div_logout{
+        text-align:right;
+        margin-right:15px;
+    }
+
+    .linksPainel{
+        color:#000; 
+    }
+
+    .fraseDaIdeiaSpan{
+        font-size: 25px;
+        color:#CC5200;
+    }
+
+    .rectangle { 
+        /*width: 900px;*/
+        overflow-wrap:break-word;
+        margin:40px; 
+        background:#627474;
+        color: #FFF;
+        text-align: justify;
+        padding:10px;
+        margin-top: 10px;  
+        border-radius:10px;
+        font-size: 18px;
+     }
+
+     .smallRectangle { 
+        margin:40px;
+        /*width: 900px; */
+        height: 40px; 
+        background: #627474;
+        color: #FFF;
+        text-align: justify;
+        padding:10px; 
+        border-radius:10px;
+        font-size: 20px;
+     }
+
+     .detalhesIdeia{
+        margin:50px;
+        margin-top:-20px; 
+        text-align: justify;
+        font-size:19px;
+        position: relative;
+     }
+
+    .textAreas{
+        width: 50%;
+    }
+
+    #previsualizar2{ /*  CSS da imagem  */ 
+        margin-top:15px;
+        margin-left:300px; 
+        padding:10px;
+        border:solid;
+        border-radius:10px; 
+        border-color:orange;
+        margin-right:1100px;
+        width:200px;
+        height:200px;
+    }
+
+    #cadastraideia{
+        margin-bottom:30px;
+    }
+
+
+    #explicaPainelUser{
+        margin-top:50px; 
+        width:600px;
+        height:200px;
+        text-align:justify; 
+        margin-bottom:50px; 
+        background-color:green;
+        color:#FFF;
+    }
+
+    #fie{
+        margin-bottom:70px; 
+    }
+
+    #submeteSessao{
+        height:30px;
+        width:70px;
+        text-align:center;
+    }
+
+    .logado{
+        color:#fff;
+        font-size:18px; 
+        background-color:#FF6600;
+        border-radius:10px; 
+        padding:5px;
+        margin-left:20px; 
+    }
+
+    input{
+        height:20px;
+        font-size:17px;  
+    }
+
+
+    input:focus{
+
+        background-color:#00a859;
+        color:#FFF;
+    }
+
+    @font-face {
+        font-family: 'helveticalight';
+        src: url('/mindUpi/fonts/helveticaneue-lightcond-webfont.eot');
+        src: url('/mindUp/fonts/helveticaneue-lightcond-webfont.eot?#iefix') format('embedded-opentype'),
+            url('/mindUp/helveticaneue-lightcond-webfont.woff') format('woff'),
+            url('/mindUp/fonts/helveticaneue-lightcond-webfont.ttf') format('truetype'),
+            url('/mindUp/fonts/helveticaneue-lightcond-webfont.svg#helvetica_neuecondensed_light') format('svg');
+        font-weight: normal;
+        font-style: normal;
+
+    }
+    @font-face {
+        font-family: 'helveticamedium';
+        src: url('/mindUp/fonts/helveticaneue-mediumcond-webfont.eot');
+        src: url('/mindUp/fonts/helveticaneue-mediumcond-webfont.eot?#iefix') format('embedded-opentype'),
+            url('/mindUp/fonts/helveticaneue-mediumcond-webfont.woff') format('woff'),
+            url('/mindUp/fonts/helveticaneue-mediumcond-webfont.ttf') format('truetype'),
+            url('/mindUp/fonts/helveticaneue-mediumcond-webfont.svg#helvetica_neueCnMd') format('svg');
+        font-weight: normal;
+        font-style: normal;
+
+    }
+
+    /*--------------------- TIPOS DE FONTES USADAS --------------------------------------*/
+
+    .fontMediumVerde18{
+        font-family: "arial";
+        font-size:18px;
+        color:#FFF;
+        background-color:#104D31;
+        margin-left:20px;
+        padding:5px 5px 5px 5px; 
+        border-radius:10px;
+    }
+
+    .fontVerde{
+        color:#00A859; 
+    }
+
+    .fontDouradaTahoma{
+        color: #FFF212!important;
+        margin-right:5px; 
+    }
+
+    /*  INICIALIZAÇÃO DAS TAGSSS*/
+    *{
+        margin: 0 auto;
+        padding: 0px;	
+    }
+
+    .conteudoInternas{
+        width:1000px;
+        position:relative;
+    }
+
+    .conteudoDuvidas{
+        width:1000px;
+        position:relative;
+        min-height:350px;
+    }
+
+    .conteudoRegistroIdeias{
+        width:1000px;
+        position:relative;
+        min-height:350px;
+        text-align:justify; 
+    }
+
+     .conteudoLogin{
+        width:1000px;
+        position:relative;
+        min-height:350px;
+    }
+
+    .tamanho_divs_acordiao_registro_pequeno{
+
+        max-height: 120px;
+    }
+
+    .tamanho_divs_acordiao_registro_muito_pequeno{
+
+        max-height: 80px;
+    }
+
+    .div_mostra_parceiros_registro_ideias{
+
+        margin-top: 20px;
+        font-size:20px;
+        background-color:#1F1F14;  
+        margin:50px; 
+        border-radius:10px;
+        color:#FFF;
+        padding:10px;
+    }
+
+    body{
+        font-family:Tahoma, Geneva, sans-serif;
+        font-size:14px;
+        color:#474747;
+        text-align:center;
+        width: 100%;
+        height: 100%;	
+        background-color:#EFEFE7;
+    }
+
+    img{
+        border:none;	
+        display:inline;
+    }
+    a{
+        border:none;
+        text-decoration:none;	
+        color:#2E8B57;
+    }
+    ul{
+        list-style-type:none;	
+    }
+
+
+    input:focus {
+        outline: none;
+    }
+
+    input, textarea {
+        font-family: 'fontsitemedium';
+    }
+
+    #fraseIdeia{
+
+        background-color: #FFF;
+        color:#000;
+        padding: 10px;
+        text-align: left;
+    }
+
+    #ideia{
+        width: 100%;
+        height: 250px;
+        padding: 10px;
+        resize: none;
+        text-align: left; 
+    }
+
+    /*----------------------------------- AQUI COMEÇA O HEADER --------------------------*/
+
+    header{
+        width: 100%;
+        height: 150px;
+        background-color:#F5F5F0;
+        border-bottom:1px solid #B5B5B5;
+        background-color: #fff;
+        -moz-box-shadow: 0px 0px 4px #d0d0d0;
+        -webkit-box-shadow: 0px 0px 4px #d0d0d0;
+        box-shadow: 0px 0px 4px #d0d0d0;
+    }
+
+    #topoReduzido{
+        width: 1000px;
+        position: relative;
+        padding-top: 15px;
+    }
+
+    #logoSite{
+        float: left;
+        width: 134px;
+        height:125px;
+        background: url("../imagens/logo_empresa.png") no-repeat bottom;
+        opacity: 1;
+    }
+
+    #logoSite:hover{
+        opacity:0.8;
+    }
+
+
+    #topoNavMenu{
+        float: right;
+        width:700px;
+        height: 26px;
+        line-height: 20px;
+        margin: 10px 0px 40px;
+    }
+
+    #topoNavMenu li{
+        float: left;
+        display: block;
+        padding: 0px 10px;
+        padding-left:12px;
+        margin: 0px;
+        font-size:20px;
+        position:relative;
+    }
+
+    .bt_menu_opcoes{
+        color:#005200;
+        border-radius:10px;
+        padding:5px;
+        font-family: arial;
+    }
+
+    .bt_menu_opcoes:hover{
+        color:#FFF212;
+        border-radius:10px;
+        padding:5px;
+    }
+
+    .bt_login{
+        background-color:#44619d;
+        border:none;
+        color:#FFF;
+        padding:3px; 
+        border-radius: 5px; 
+        font-size:20px;
+    }
+
+    #topoMenuInferior{
+        float: left;
+        margin-left: 160px;
+        position:relative; 
+    }
+
+
+    #topoMenuInferior li{
+        display: inline;
+    }
+
+
+    #topoMenuInferior li a{
+        margin-right: 10px;
+    }
+
+    #topoMenuInferior li a:hover{
+        border-bottom: 4px solid #FFF212;
+        color:#FFF212;
+        padding-bottom: 10px;
+        transition: .2s;
+        -webkit-transition: .2s;
+        -moz-transition: .2s;
+        -ms-transition: .2s;
+    }
+
+    /*--------------------------------- FIM TOPO SITE -----------------------------------*/
+
+    /*--------------------------------- COMEÇO DO INDEX -----------------------------------*/
+
+
+
+    #localizaoSite{
+        width: 100%;
+        min-width: 100%;
+        height: 34px;
+        background-color:#1F1F14;
+    }
+
+    #localizaoReduzido{
+        width: 1000px;
+        height: 100%;
+    }
+
+    #localizaoReduzido span{
+        font-family: Tahoma, Geneva, sans-serif;
+        font-weight: bold;
+        font-size: 13px;
+        display: inline-block;
+        position: relative;
+        color: #fff;
+        float: left;
+        margin-top: 9px; 
+
+    }
+
+
+    /*---------------------------------------- AREA DO BANNER ------------------------------------------------*/
+    #setaBanner{
+        width: 1000px;
+        margin: 0px auto 11px auto;
+        position: relative
+
+    }
+
+    #prev{
+        width: 30px;
+        height: 41px;
+        float: left;
+        opacity: 0.5;
+        cursor: pointer;
+        top: -69px;
+        position: absolute;
+        z-index: 5;
+        background-image: url(../imagens/prev.png) ;
+
+    }
+
+    #next{
+        width: 30px;
+        height: 41px;
+        float: left;
+        opacity: 0.5;
+        cursor: pointer;
+        top: -69px;
+        position: absolute;
+        z-index: 5;
+        right: 0px;
+        background-image: url(../imagens/next.png) ;
+    }
+
+    #prev:hover,#next:hover{
+        opacity: 1;
+
+    } 
+    #bannerRotativo{
+        width: 100%;
+        min-width: 1000px;
+        height: 500px;
+        z-index: 1;
+        display: block;
+        border-bottom: 1px solid #E6E7E8   ;
+        position: relative;
+        overflow: hidden;
+        margin: 0; 
+
+    }
+
+    #bannerRotativo .bg{
+        background: url(../imagens/banner2.jpg) no-repeat top center;
+        width: 100%;
+        height: 500px;
+    }
+    #bannerRotativo .bg2{
+
+        background: url(../imagens/thomas.jpg) no-repeat top center;
+        width: 100%;
+        height: 500px;
+    }
+
+    #bannerRotativo .bg3{
+        background: url(../imagens/turing.jpg) no-repeat top center;
+        width: 100%;
+        height: 500px;
+    }
+
+    #bannerRotativo .bg4{
+        background: url(../imagens/1.png) no-repeat top center;
+        width: 100%;
+        height: 500px;
+    }
+
+    .faixaTexto{
+
+        height: 100px;
+        background-color: rgba(0, 0, 0, 0.7);
+        background: rgba(0, 0, 0, 0.7);
+        color: rgba(0, 0, 0, 0.7);
+        bottom: -2px;
+        width: 100%;
+        top: 400px;
+        position: relative; 
+
+    }
+
+    .faixaTextoMenor{
+        width: 988px;
+        height: 100%;;
+        position: relative;
+
+    }
+
+    .areaTitulo{
+        margin-top: 14px;
+        float: left;
+        text-align: right;
+        margin-left: 49px;
+        color: #fff;
+        font-weight: bold;
+        font-size: 15px;
+        border-right: 1px solid #fff;
+        height: 86px;
+        padding-right: 18px;
+        height: 73px;
+        font-family: tahoma;
+        margin-bottom: 35px;
+
+    }
+
+    .areaTexto{
+        margin-left: 18px;;
+        margin-top: 30px;
+        float: left;
+        font-size: 15px;
+        color: #fff;
+        min-height: 76px;
+        text-align: left;
+        width: 675px;
+        text-align: left;
+        cursor: pointer; 
+
+    }
+
+    .areaTexto a{
+        opacity:  0.5;
+        color: #fff;
+    }
+
+    .areaTexto a:hover{
+        opacity: 1;
+
+    }
+
+    /*-------------------------------- FIM DA AREA BANNER -----------------------------------------*/
+
+
+    /*-------------------------------- COMEÇO DA AREA METRO -----------------------------------------*/
+
+    .pagina{
+        width:100%;
+        overflow-x: auto;
+        height:60%;
+        cursor:default;
+    }
+
+    .linha{
+        width: auto;
+        padding:5px;
+        height:110px;
+        display:table;
+
+    }
+
+
+    .tile{
+        height:100px;
+        width:100px;
+        float:left;
+        margin:0 9px 0;
+        padding:2px;
+    }
+
+    .tileEsp{
+        height:100px;
+        width:150px;
+        float:left;
+        padding:2px;
+    }
+
+    .tileLargo{
+        width: 210px;
+        height: 100px;
+        float:left;
+        margin:0 9px 0;
+        padding:2px;
+    }
+
+    .tile img{
+        width:56px;
+        margin:20px 22px 0 22px;
+
+    }
+
+    .tileLargo img{
+        margin:20px 77px 0px 77px;
+    }
+
+    .tile span{
+        color: #fff;
+        display: inline-block;
+        margin-right: 7px;
+        margin-top: 4px;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    /*CORES DO BACKGROUND DO METRO*/
+
+    .amarelo{
+        background:#CCA300;
+        color:#fff;
+    }
+
+    .laranja{
+        background:#CC5200; 
+        color:#fff;
+    }
+
+    .azul{
+        background:#005252;
+        color:#fff;
+    }
+
+    .verde{
+        background-color: #005200;
+        color:#fff;
+    }
+
+    .selecionado{
+        background-color: #483D8B;
+    }
+
+    #direitos{
+        margin-left: 100px;
+        position: absolute;
+        left: 558px;
+        top: 91px;
+    }
+
+    #direitosLogado{
+        margin-left: 100px;
+        position: absolute;
+        left: 250px;
+        top: 60px;
+    }
+
+    #direitosDeslogado{
+        margin-left:100px;
+        position: absolute; 
+        left:800px; /* posiciona a 90px para a esquerda */ 
+        top:130px; /* posiciona a 70px para baixo */
+    }
+
+    #rodape{
+        background-color:#2B3535;
+        z-index:15;
+        height:230px;
+        padding-top:20px;
+        color:#FFF;
+        overflow:hidden;
+        position:relative;
+        bottom: 0;
+        z-index:5;
+        font-size:13px;
+    }
+
+    .rodapeInterno{
+        width:1000px;
+        position: relative;
+        height: 100%;
+
+    }
+
+    #rodapeLogado{
+        background-color:#2B3535;
+        z-index:15;
+        height:130px;
+        padding-top:20px;
+        color:#FFF;
+        overflow:hidden;
+        position:relative;
+        bottom: 0;
+        z-index:5;
+        font-size:13px;
+    }
+
+
+    #rodapeLogado a:hover{
+        background-color:#ff6600;
+        z-index:15;
+        height:230px;
+        padding-top:20px;
+        color:#fff;
+        overflow:hidden;
+        position:relative;
+        bottom: 0;
+        z-index:5;
+        font-size:13px;
+    }
+
+    .linksrodapelogado{
+
+        padding:10px;background-color:green;border-radius:10px;
+    }
+
+
+
+    #rodape ul{
+        position:relative;
+        left:-280px; 
+        top: 0px;
+        width: 200px;
+    }
+
+
+    #rodape ul li{
+        padding-bottom:50px;
+        width:100px;
+        display:block;
+        padding:5px;
+        color:white; 
+        border-radius:10px;
+        font-weight: bold;
+        text-align: left;
+    }
+
+    .fb-like-box{ 
+        position:absolute;
+        top:-220px;
+        display: block;
+        background-color:#FFF;
+    }
+
+    #rodape ul li:hover{
+        padding-bottom:50px;
+        width: 100px;
+        display:block;
+        color:#FFF;
+        background-color:#FF6600;
+        padding:5px; 
+        border-radius:10px;
+    }
+
+    fieldset table td{
+        margin:20px;
+        font-size:20px;
+        border-radius: 10px; 
+        background-color:#1F1F14;
+        color:#fff; 
+    }
+
+    fieldset{
+        margin:40px;
+        font-size:20px;
+        border-radius: 10px; 
+        background-color:#1F1F14;
+        color:#fff; 
+    }
+
+    #cadastro form input{
+        height:30px;
+    }
+
+    table tr td{
+        padding-top:5px;
+        padding-bottom:5px;
+        border-radius: 10px;
+        padding: 10px;
+        text-align: justify;
+    }
+
+    table th{
+        padding: 10px;
+        text-align:justify;
+        border-radius: 10px;
+    }
+
+    #tabelaLogin{
+
+        margin-left:300px; 
+        width:500px;
+
+    }
+
+    #botaocadastra{
+        margin-left:250px;
+        width:100px;
+        height:40px;
+        text-align:center;
+    }
+    table {
+        text-align:center;
+        width:1000px; 
+        border:0;
+    }
+
+
+
+    #diferente{
+        text-align:center;
+        width:600px;
+    }
+
+    .arruma0{
+        text-align:center;
+        width:58px;  
+        background-color:#1F1F14;
+        color:#FFF;
+        border-radius:10px; 
+    }
+
+    .arruma1{
+        text-align:center;
+        width:120px;  
+        background-color:#1F1F14;
+        color:#FFF;
+        border-radius:10px; 
+    }
+
+    .arruma2{
+        text-align: center;
+        width: 270px;
+        background-color:#1F1F14;
+        color: #FFF;
+        border-radius: 10px;
+        padding: 9px;
+    }
+
+    .arruma3{
+        text-align:center;
+        width:10px;  
+        background-color:#1F1F14;
+        color:#FFF;
+        border-radius:10px; 
+    }
+
+
+    .arrumaTh0{
+
+        text-align:center;
+        width:50px;  
+    }
+
+
+    .arrumaTh1{
+
+        text-align:center;
+        width:110px;  
+    }
+
+    .arrumaTh2{
+
+        text-align:center;
+        width:260px; 
+    }
+
+    .arrumaTh3{
+
+        text-align:center;
+        width:110px;  
+    }
+
+    .corh1{
+
+        color:gray; 
+    }
+
+    .computacao{
+
+    }
+
+    #logoroda{
+        width:120px;
+        height:120px; 
+        display: block;
+        float:left;
+        cursor: pointer;
+        opacity:0.8;
+    }
+
+    #logoroda:hover{
+        opacity: 1;
+
+    }
+
+    a{
+
+        color:#FFF; 
+    }
+
+    #explicaSobre{
+        padding:18px; 
+        text-align:justify;
+        font-size:17px; 
+        background-color:#1F1F14; 
+        width:800px;
+        color:#FFF;
+        margin-bottom:30px;
+        border-radius:10px; 
+    }
+
+    .explicaRegistroIdeias{
+        padding:18px; 
+        text-align:justify;
+        font-size:18px; 
+        background-color:#1F1F14; 
+        width:80%;
+        color:#FFF;
+        margin-bottom:30px;
+        border-radius:10px; 
+
+    }
+
+    .setaDicaPerfil{
+        margin-left: -550px;
+    }
+
+
+    .headerEspecial{
+
+        color:#3E5050;
+    }
+
+    .headerEspecial2{
+        padding:10px;
+        border-radius:10px; 
+        color:#FFF;
+        background-color:#44619d;
+        height:30px;
+        width:600px; 
+    }
+
+     .headerEspecial3{
+        padding:10px;
+        border-radius:10px; 
+        color:#FFF;
+        background-color:#44619d;
+        height:30px;
+        width:600px; 
+        text-align: center;
+    }
+
+    #imgrodape{
+        width:300px;
+        height:220px;
+        margin-left:100px;
+        position: absolute; 
+        left:700px; /* posiciona a 90px para a esquerda */ 
+        top:28px; /* posiciona a 70px para baixo */
+    } 
+
+    #sugestao{
+        margin-left:100px;
+        position: absolute; 
+        left:800px; /* posiciona a 90px para a esquerda */ 
+        top:10px; /* posiciona a 70px para baixo */
+    }
+
+    textarea{
+
+        font-size: 15px;
+    }
+
+    .h3especial{
+
+        margin-top:40px;
+    }
+
+    .h3especial2{
+
+        margin-top:60px;
+    }
+
+    .topo{
+        color:#44619d;
+        font-weight:bold;
+        padding-right:35px;
+    }
+
+    /*AQUI COMEÇA MINHA PARTE NO CSS BY JP*/
+
+    /*AREA DO LOGIN */
+
+    #loginTudo{
+        width: 100%;
+        height: 3000px;
+        background-color: #29292B;
+        display: none;
+        padding-top: 10%;
+    }
+
+    .logoEmpresa{
+        background: url(../imagens/logo_empresa.png);
+        width:111px;
+        height: 85px;
+
+    }
+
+    #fechar{
+        position: absolute;
+        width: 50px;
+        height: 45px;
+        background: #fff;
+        right: -13px;
+        border-radius: 44px;
+        top: -19px;
+        cursor: pointer;
+    }
+
+    #fechar h1{
+        margin-top:5px;
+
+    }
+
+    #fechar:hover h1{
+        color:#FFF220;
+
+    }
+
+    .areaLoginTotal{
+        width: 28%;
+        height: 307px;
+        background: #f1f1f1;
+
+        border: 3px solid #fff;
+        position: relative;
+    }
+
+    #formularioInterno{
+        width: 100%;
+        position: relative;
+        height: 150px;
+        margin-top: 15px;
+    }
+
+
+    #formularioInterno input{
+        font-family: "Lucida Grande","Lucida Sans Unicode",Tahoma,sans-serif;
+        font-size: 13px;
+        width: 61%;
+        margin-left: 67px;
+        font-family: 'Open Sans', sans-serif;
+        color: #2e2e2e;
+        background-color: #fafafa!important;
+        border-color: #dddddd;
+        border-width: 1px;
+        border-style: solid;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        border-radius: 5px;
+        padding: 10px;
+        box-shadow: 0 0 0;
+        text-indent: 24px;
+        float: left;
+        text-align: left;
+        clear: left;
+        margin-bottom: 5px;
+        position: relative;
+    }
+
+    #formularioInterno:focus{
+        background:#fff;
+
+    }
+
+    #btEntrar{
+
+        width: 41%;
+        height: 44px;
+        font-size: 19px;
+        margin-top: 9px;
+        text-align: center;
+        font-family: "fontsite";
+        background: #FFF212;
+        border: none;
+        color: #fff;
+        cursor: pointer;
+        transition: .2s;
+    }
+
+    #btEntrar:hover{
+
+        background-color: #fff;
+        color:#1c1c1c;
+    }
+
+    #loginAcesso{
+        background: url(../imagens/loginImg.png) no-repeat bottom left;
+        background-position: 6px;
+
+
+    }
+
+    #senhaAcesso{
+        background: url(../imagens/senhaImagem.png) no-repeat bottom left;
+        background-position: 6px;
+
+    }
+
+    #esqueceuSenha{
+        display:block ;
+        color:#2e2e2e;
+        font-size:14px;
+        margin-top: 10px;
+    }
+
+    #esqueceuSenha:hover{
+        color:#1c1c1c;
+    }
+
+    input .aumentarDivCadastro{
+        width: 50%;
+    }
+
+    .corrigindoBotaoCadastrar{
+
+        position: relative;
+        left: 114px;
+        top: 16px;
+
+    }
+
+    #div_fim_duvidas_pagina_duvidas{
+
+        padding-bottom:50px; 
+    }
+
+    .areaTitulo{
+        width: 1000px;
+        margin-top: 37px;
+        text-align: center;
+    }
+
+    .areaTitulo h2, .areaTitulo h4{
+        color:#FFF ;
+    }
+
+
+    .areaTitulo p{
+        color:#fff;	
+    }
+
+    .internasConteudoSiteTotal{
+        width:1000px;
+        min-height: 350px;
+        border-top: 4px solid #101011;
+        padding-bottom: 54px;
+
+    }
+
+    .areaCadastroTotal{
+
+        width: 1000px;
+        min-height: 240px;
+        text-align: left;
+        font-size: 14px;
+        color: #8f8f8f;
+        font-family:"fontsite";
+    }
+
+    .areaCadastroInterno h1{
+        text-align: left;
+        margin-bottom: 15px;
+        color: #FFF244;
+
+    }
+
+    td{
+        font-size: 18px;
+        color: #000;
+        text-align: left;
+    }
+
+    em{
+        color: #C7AA13;
+
+    }
+
+    .corRodape{
+        background-color: #EFEFE7;
+        height: 100%;
+        width: 100%;
+
+    }
+
+    .corBordaContato{
+        border-bottom:4px solid #EFEFE7; 
+    }
+
+    .corEscura{
+        background-color: #101011;
+        height: 40%;
+        width: 100%;
+        border-bottom: 4px solid #000;
+        border-top: 4px solid #000;
+    }
+
+
+    .areaCadastroTotal input{
+        font-family: "Lucida Grande","Lucida Sans Unicode",Tahoma,sans-serif;
+        font-size: 16px;
+
+        margin: 0px 0px 5px 5px;
+        font-family: 'Open Sans', sans-serif;
+        color: #2e2e2e;
+        background-color: #fafafa;
+        border-color: #dddddd;
+        border-width: 1px;
+        border-style: solid;
+        -moz-border-radius: 0px;
+        -webkit-border-radius: 0px;
+        border-radius: 0px;
+        padding: 10px;
+        box-shadow: 0 0 0;
+        float: left;
+        text-align: left;
+        width: 25%;
+    }
+    /*
+    ESTILIZANDO OS CAMPOS DO FORMULARIO*/
+
+
+    input .aumentarDivCadastro{
+        width: 50%;
+
+    }
+
+    /*Area do login*/
+    .tituloMaior{
+        text-align: left;
+        width: 1000px;
+        height: 42px;
+        margin-top:10px;
+        margin-bottom: 10px;
+
+    }
+
+    .tituloMaior h2{
+        font-size:20px;
+        color:#000;
+
+
+
+    }
+
+    .areaLogin{
+        width: 480px;
+        height: 265px;
+        border: 1px solid #d2d2d2;
+        float: left;
+        text-align: center;
+        margin-top: 8px;
+
+    }
+
+    .marginTopTitulo{
+        margin-top: 50px;
+    }
+
+    .btTotal{
+
+        width: 224px;
+        height: 36px;
+        background-color: #00A859;
+        text-align: center;
+
+        position: relative;
+    }
+
+    .btTotal a{
+        width:100%;
+        height: 100%;
+        display:block;
+        margin:0 auto;
+        padding: 0;
+        line-height: 35px;
+        color: #fff;
+        font-size: 18px;
+        font-family: "helveticamedium";
+        transition:.2s;
+        -webkit-transition: .2s;
+        -moz-transition: .2s;
+        -ms-transition: .2s;
+        -oz-transition: .2s;
+
+    }
+
+    .btTotal a:hover, .areaInput button:hover{
+        background-color: #FFF212;
+        transition: .2s;
+
+        border-radius:5px;
+        -webkit-border-radius:5px;
+        -moz-border-radius:5px;
+        -oz-border-radius:5px;
+        -ms-border-radius:5px;
+        -webkit-transition: .2s;
+        -moz-transition: .2s;
+        -ms-transition: .2s;
+        -oz-transition: .2s;
+
+    }
+
+    .ajusteMarginTopBtTotal{
+        margin-top: 27px;
+
+    }
+
+    .floatRight{
+
+        float:right;
+    }
+
+
+    .areaInput{
+        width: 348px;
+        height: 36px;
+        margin: 0 auto;
+        margin-bottom: 5px;
+        margin-top: 16px;
+        text-align: left;
+    }
+
+    .areaInput input{
+        width: 277px;
+        height: 36px;
+        border: 1px solid #E6E7E8;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        padding-left: 10px;
+        margin-left: 10px;
+        font-size: 14px;
+        color:#000;
+        outline:none;
+
+
+    }
+
+    .areaInput input:focus{
+
+
+        border: 1px solid #FFF212;
+        outline: none;
+
+    }
+
+    /*//Essa div serve para alinhar a div*/
+
+
+
+    #indentificacaoSenha{
+
+        width: 215px;
+
+
+    }
+
+    .areaInput span{
+        display: inline-block;
+        position:relative;
+
+    }
+
+    .areaInput button {
+        width: 43px;
+        height: 38px;
+        background-color: #00A859;
+        color: #fff;
+        position: relative;
+        margin-top: 10px;
+        cursor: pointer;
+        border: none;
+        left: 6px;
+    }
+
+    #areaCheck{
+        width: 360px;
+        height: 40px;
+        margin: 0 auto;
+        margin-top: 28px;
+
+    }
+
+    #opcaoLadoEsquerdo{
+        width: 165px;
+        height: 25px;
+        float: left;
+
+    }
+
+    #opcaoLadoDireito{
+        float: right;
+        width: 150px;
+        height: 25px;
+
+    }
+
+    #opcaoLadoDireito a:hover{
+        color:#00A859;
+
+    }
+    /*------------------------------------ AQUI TERMINA A AREA DO LOGIN ---------------------------------------------*/
+
+    /*------------------------------------ AQUI COMEÇA  A PARTE DO CONTATO ---------------------------------------------*/
+    .internasConteudoSiteTotal{
+        width:1200px;
+        min-height: 350px;
+        padding-bottom: 54px;
+
+    }
+
+    .contatoBoxEsquerdo{
+        width:62%;
+        height: 271px;
+        float:left;
+
+    }
+
+    .mapaLocal{
+        width:471px;
+        height: 273px;
+        margin-right:  27px;
+        float: left;
+
+    }
+
+    .contatoTexto{
+        float: left;
+        width:160px;
+        font-size: 15px;
+    }
+
+    .contatoTexto h6{
+        margin-bottom: 16px;
+        text-align: left;
+        color:#FFF;
+    }
+
+    .contatoTexto p{
+        text-align: left;
+        color:#fff;
+        padding:0px;
+        margin-bottom: 10px;
+    }
+
+    .contatoBoxDireito{
+        width: 450px;
+    }
+
+    .contatoBoxDireito input{
+        font-family: "Lucida Grande","Lucida Sans Unicode",Tahoma,sans-serif;
+        font-size: 13px;
+        margin-bottom: 0;
+        font-family: 'Open Sans', sans-serif;
+        color: #2e2e2e;
+        background-color: #fafafa;
+        border-color: #dddddd;
+        border-width: 1px;
+        border-style: solid;
+        -moz-border-radius: 5px;
+        -webkit-border-radius:5px;
+        border-radius:5px;
+        padding: 10px;
+        margin-bottom: 0px;
+        box-shadow: 0 0 0;
+        float: left;
+        text-align: left;
+
+    }
+
+    .obrigatorio{
+        color:red;
+
+    }
+
+    .contatoBoxDireito label{
+        display: block;
+        text-align: left;
+        width: 212px;
+        float: left;
+        margin-bottom: 14px;
+        color: #FFF;
+    }
+
+    textarea{
+        width: 181%;
+        height: 127px;
+        padding:10px;
+        resize: none;
+        text-align: left;
+    }
+
+    .aumentarTamanhoInput{
+        width: 106%!important;
+
+    }
+
+    .diminuirTamanho{
+        width: 90px!important;
+        margin-right: 68px;
+
+
+    }
+
+    #telefone{
+        width:90px;
+    }
+    .bordaRedonda{
+        border-radius:5px;
+        -webkit-border-radius:5px;
+        -moz-border-radius:5px;
+        -ms-border-radius:5px;
+        -o-border-radius:5px;
+
+    }
+
+    input[type="submit"], #btCadastro{
+        clear: left;
+        width: 89px;
+        height: 44px;
+        font-size: 19px;
+        text-align: center;
+        font-family: "fontsite";
+        background:#00a859;
+        border: none;
+        color: #fff;
+        cursor: pointer;
+        border-radius: 10px;
+        transition: .2s;
+        margin-bottom: 15px;
+    }
+
+    input[type="submit"]:hover,btCadastro:hover{
+        background-color: #fff;
+        color:#1c1c1c;
+    }
+
+    .areaCadastroTotal{
+
+        width: 1200px;
+        min-height: 240px;
+        text-align: left;
+        font-size: 14px;
+        color: #8f8f8f;
+        font-family:"fontsite";
+    }
+
+    .areaCadastroTotal{
+        float: left;
+        width: 100%;
+
+    }
+
+    em{
+        color: #C7AA13;
+
+    }
+
+    .areaCadastroInterno h1{
+        text-align: left;
+        margin-top: 15px;
+        color: #FFF212;
+
+    }
+
+    .areaCadastroTotal input{
+        font-family: "Lucida Grande","Lucida Sans Unicode",Tahoma,sans-serif;
+        font-size: 16px;
+        margin: 0px 0px 5px 5px;
+        font-family: 'Open Sans', sans-serif;
+        color: #2e2e2e;
+        background-color: #fafafa;
+        border-color: #dddddd;
+        border-width: 1px;
+        border-style: solid;
+        -moz-border-radius: 0px;
+        -webkit-border-radius: 0px;
+        border-radius: 0px;
+        padding: 10px;
+        box-shadow: 0 0 0;
+        float: left;
+        text-align: left;
+        width: 25%;
+    }
+
+    .clear{
+        clear: both;
+
+    }
+
+    .jimgMenu {
+        position: relative;
+        width: 72%;
+        height: 199px;
+        /* float: left; */
+        overflow: hidden;
+        margin: 20px 0px 100px;
+        border-radius: 10px;
+    }
+
+    .jimgMenu ul {
+        border-radius:10px;
+        margin: 0px;
+        display: block;
+        height: 200px;
+        width: 1340px;
+
+    }
+
+    .jimgMenu ul li {
+        float: left;
+        border-radius:10px;
+    }
+
+    .jimgMenu ul li a {
+        border-radius:10px;
+        text-indent: -1000px;
+        background:#FFFFFF none repeat scroll 0%;
+        border-right: 2px solid #fff;
+        cursor:pointer;
+        display:block;
+        overflow:hidden;
+        width:78px;
+        height: 200px;
+    }
+
+    .jimgMenu ul li.landscapes a {
+        background: url(../imagens/inserirideia.png) repeat scroll 0%;
+    }
+
+    .jimgMenu ul li.people a {
+        background: url(../imagens/mostrarideias.png) repeat scroll 0%;
+    }
+
+    .jimgMenu ul li.nature a {
+        background: url(../imagens/atualizarideia.png) repeat scroll 0%;
+    }
+    .jimgMenu ul li.abstract a {
+        background: url(../imagens/deletarideia.png) repeat scroll 0%;
+    }
+
+    .jimgMenu ul li.urban a {
+        background: url(../imagens/investir.png) repeat scroll 0%;
+    }
+
+    .jimgMenu ul li.divulgue_ideias_amigos a {
+        background: url(../imagens/trocks.png) repeat scroll 0%;
+        min-width:310px;
+    }
+
+    .jimgMenu2 {
+        position: relative;
+        width: 72%;
+        height: 199px;
+        /* float: left; */
+        overflow: hidden;
+        margin: 20px 0px 100px;
+        border-radius: 10px;
+    }
+
+    .jimgMenu2 ul {
+        margin: 0px;
+        display: block;
+        height: 200px;
+        width: 1340px;
+        border-radius:10px;
+    }
+
+    .jimgMenu2 ul li {
+        border-radius:10px;
+        float: left;
+    }
+
+    .jimgMenu2 ul li a {
+        border-radius:10px;
+        text-indent: -1000px;
+        background:#FFFFFF none repeat scroll 0%;
+        border-right: 2px solid #fff;
+        cursor:pointer;
+        display:block;
+        overflow:hidden;
+        width:78px;
+        height: 200px;
+    }
+
+    .jimgMenu2 ul li.landscapes a {
+        background: url(../imagens/editarperfil.png) repeat scroll 0%;
+    }
+
+
+    .jimgMenu2 ul li.people a {
+        background: url(../imagens/sugestoes.png) repeat scroll 0%;
+    }
+
+    .jimgMenu2 ul li.nature a {
+        background: url(../imagens/visualizarOutroPerfil.png) repeat scroll 0%;
+    }
+    .jimgMenu2 ul li.abstract a {
+        background: url(../imagens/ideiasInvestidas.png) repeat scroll 0%;
+    }
+
+
+    .jimgMenu2 ul li.urban a {
+        background: url(../imagens/minhasideiasinvestidas.png) repeat scroll 0%;
+    }
+
+    .jimgMenu2 ul li.duvidas_registro_ideias a {
+        background: url(../imagens/explicacao_duvidas_sobre_registro_ideias.png) repeat scroll 0%;
+    }
+
+    .jimgMenu2 ul li.pagar_ideias a {
+        background: url(../imagens/pagar_ideias.png) repeat scroll 0%;
+        min-width:310px;
+    }
+
+    #areaPainelTotal{
+        background-color:#44619d;
+        height:700px;
+        width: 100%;
+    }
+
+    #areaPerfil{
+        background-color:#44619d;
+        width: 100%;
+    }
+
+    #informacoesUsuario{
+        float: left;
+        width: 28%;  
+        text-align: justify;
+    }
+
+    #informacoesUsuario_ver_perfil{
+        width: 28%;  
+        text-align: justify;
+    }
+
+    .infoPainel{
+        color: #fff;
+        margin-top: 7px;
+        margin-left: 7px;
+        float: left;
+    }
+
+
+    #sugestoes{
+        padding: 10px;
+        float: left;
+        width: 227px;
+        margin-left: -8px;
+        margin-top: -9px;
+        color: #fff;
+        background-color: #00a859;
+        border-radius: 10px;
+        text-align: center;
+
+    }
+
+    .icone_localizacao{
+        width:25px; 
+        height:25px;
+        margin-right:882px;
+        margin-top:5px;
+    }
+
+    .alinha_categoria_voce_esta_em{
+        color:#fff;
+        font-size: 15px;
+        margin-right:120px;
+        margin-top:-20px;
+    }
